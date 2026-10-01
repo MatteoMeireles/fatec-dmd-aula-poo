@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Exercicio5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite um número: ");
+        int numero = sc.nextInt();
+        if (numero >= 10 && numero <= 50) {
+            System.out.println("Está dentro do intervalo");
+        } else {
+            System.out.println("Está fora do intervalo");
+        }
+        sc.close();
+    }
+}
