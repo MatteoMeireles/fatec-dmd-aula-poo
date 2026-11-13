@@ -1,6 +1,5 @@
 public class Ex1 {
 
-    // as classes ficam dentro do arquivo para cada exercicio ser um arquivo so
     static class Contador {
         private int valor;
 
